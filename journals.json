@@ -1,0 +1,29 @@
+{
+  "Journals": [
+    {
+      "title": "Today was good",
+      "body": "I had fun today",
+      "id": 2
+    },
+    {
+      "title": "Hey",
+      "body": "Hey there this is a Journal",
+      "id": 3
+    },
+    {
+      "title": "I like python",
+      "body": "That coding language is great!",
+      "id": 4
+    },
+    {
+      "title": "New Years Eve",
+      "body": "Today i got stuck working :/",
+      "id": 5
+    },
+    {
+      "title": "Tomorrows Run",
+      "body": "I will start running tomorrow",
+      "id": 7
+    }
+  ]
+}
