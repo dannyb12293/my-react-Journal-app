@@ -14,18 +14,22 @@ return(
         <div>
         {journalData.map((journal) => (
             <div key={journal.id}className="one-journal">
-                <h3>{journal.title}</h3>
+                <h3>
+                    <b>{journal.title}</b>
+                
+                </h3>
+                
 
-                <a className="btn" href={`one-journal/${journal.id}`}>
+                <a className="btn btn-light" href={`one-journal/${journal.id}`}>
                 {" "}
                 View Journal{" "}
                 </a>
 
-                <a className="btn" href={`update-journal/${journal.id}`}>
+                <a className="btn btn-secondary" href={`update-journal/${journal.id}`}>
                 {" "}
                 Update Journal{" "}
                 </a>
-                <button className="btn" onClick={() => context.handleDelete(journal.id)}>Delete</button>
+                <button className="btn btn-dark" onClick={() => context.handleDelete(journal.id)}>Delete</button>
             </div>
         ))}
         </div>

@@ -2,9 +2,9 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <nav className="container navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="container navbar navbar-expand-lg navbar-light bg-#7c7c7c2b">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           Journals
         </a>
         <button
@@ -20,8 +20,9 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link active" aria-current="page" href="#">
+            <a className="nav-link active" aria-current="page" href="/">
               All Journals
+              
             </a>
           </div>
         </div>

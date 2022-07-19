@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 body {
   font-family: 'Montserrat', sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1483546363825-7ebf25fb7513?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8am91cm5hbHxlbnwwfHwwfHw%3D&w=1000&q=80);
+  background-size: 100%;
+  background-repeat: no-repeat; background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+
 }
   
   /* -------------------- Root Styles------------------- */
@@ -29,10 +35,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: var(--coral-orange);
+    background-color: #7c7c7c2b;
     margin-top: 50px; 
     width: 1000px;
     border-radius: 10px;
+    color: white;
+
   }
   
   .header > div {
@@ -74,18 +82,24 @@ body {
   
     resize: none; /*remove the resize handle on the bottom right*/
   }
-  
+  .forms textarea{
+    background-color: #7c7c7c2b;
+   }
+   .forms input {
+    background-color: #7c7c7c2b;
+   }
   /* ------------------------------- update Journals ----------------------------- */
   
   .update-header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: var(--coral-orange);
+    background-color: #7c7c7c2b;
     margin: auto;
     margin-top: 50px;
     width: 1000px;
     border-radius: 10px;
+    color: white;
   }
   
   .update-header h3 {
@@ -96,12 +110,13 @@ body {
   /* -------------------- View one styling --------------------- */
   
   .view-journal {
-    background-color: var(--coral-orange);
+    background-color: #7c7c7c2b;
     width: 900px;
     margin: auto;
     margin-top: 50px;
     padding: 20px;
     border-radius: 10px;
+    color: white;
   }
   
   .view-journal h3 {
@@ -121,3 +136,10 @@ body {
     color: white;
     margin: 10px 10px 10px 0;
   }
+  .navbar-light .navbar-nav .nav-link.active{
+    color: white;
+  }
+  .navbar-light .navbar-brand {
+    color: white;
+  }
+ 
